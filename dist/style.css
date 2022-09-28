@@ -1,0 +1,25 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+  text-align: center;
+}
+.countdown {
+  background-color: white;
+  border-radius: 100vh;
+  margin: auto;
+  padding: 2rem 6rem;
+  margin-top: calc((100vh / 2) - 7rem);
+  width: max-content;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}
+.countdown h1 {
+  font-size: 4rem;
+  margin: 0.5rem;
+  padding: 0;
+  color: red;
+}
+.countdown p {
+  font-size: 3rem;
+  margin: 0.5rem;
+  padding: 0;
+  color: green;
+}
