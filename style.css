@@ -23,3 +23,14 @@ body {
   padding: 0;
   color: green;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  color: grey;
+}
+footer a {
+  color: grey;
+}
+footer a:hover {
+  color: darkblue;
+}
