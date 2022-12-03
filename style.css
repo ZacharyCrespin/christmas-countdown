@@ -1,27 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: Roboto, Arial, sans-serif;
+  background-color: white;
+  font-family: sans-serif;
   text-align: center;
+  display: flex;
+  min-height: 100vh;
 }
 .countdown {
   background-color: white;
+  align-self: center;
+  margin: 0 auto;
   border-radius: 100vh;
-  margin: auto;
-  padding: 2rem 6rem;
-  margin-top: calc((100vh / 2) - 7rem);
-  width: max-content;
+  padding: 1em 3em;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
 }
 .countdown h1 {
-  font-size: 4rem;
-  margin: 0.5rem;
-  padding: 0;
   color: red;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 .countdown p {
-  font-size: 3rem;
-  margin: 0.5rem;
-  padding: 0;
   color: green;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 footer {
   position: fixed;
