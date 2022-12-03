@@ -14,13 +14,12 @@ var x = setInterval(function () {
   // Display the result in the title
   document.title = `Christmas Is In ${days} Days ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
   // Display the result in the element with id="countdown"
-  document.getElementById(
-    "countdown"
-  ).innerHTML = `${days} Days ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
+  document.getElementById("countdown").innerText = `${days} Days ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
   // If the count down is finished, write "Merry Christmas!"
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").remove();
-    document.getElementById("title").innerHTML = "Merry Christmas!";
+    document.title = "Merry Christmas!";
+    document.getElementById("title").innerText = "Merry Christmas!";
   }
 }, 1000);
