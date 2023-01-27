@@ -30,10 +30,10 @@ body {
 footer {
   position: fixed;
   bottom: 0;
-  color: grey;
+  color: black;
 }
 footer a {
-  color: grey;
+  color: black;
 }
 footer a:hover {
   color: darkblue;
